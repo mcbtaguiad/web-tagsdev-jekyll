@@ -8,11 +8,11 @@ entries:
       - title: mark taguiad | devops
         url: false
       - title: cv
-        url: ./mark-cv
+        url: ./mark-cv.html
       - title: github
         url: https://github.com/mcbtaguiad/
       - title: email
-        mailto: marktaguiad@tagsdev.click
+        url: mailto:marktaguiad@tagsdev.click
 
   
 
