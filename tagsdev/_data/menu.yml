@@ -14,8 +14,6 @@ entries:
       - title: marktaguiad@tagsdev.click
         url: mailto:marktaguiad@tagsdev.click
 
-  
-
   - title: blog
     post_list: true
     url: false
