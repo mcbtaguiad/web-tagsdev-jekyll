@@ -64,7 +64,7 @@ spec:
       imagePullSecrets:
       - name: ghcr.io
       containers:
-        - image: ghcr.io/mcbtaguiad/web-tagsdev-jekyll:v1.0.2
+        - image: ghcr.io/mcbtaguiad/web-tagsdev-jekyll:v1.0.5
           imagePullPolicy: Always
           name: web-tagsdev
           ports:

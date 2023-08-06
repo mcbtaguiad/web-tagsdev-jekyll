@@ -3,7 +3,7 @@ version: "3.9"
 services:
     app:
         container_name: web-tagsdev-jekyll
-        image: ghcr.io/mcbtaguiad/web-tagsdev-jekyll:v1.0.2
+        image: ghcr.io/mcbtaguiad/web-tagsdev-jekyll:v1.0.5
         build:
             context: .
             dockerfile: Dockerfile
