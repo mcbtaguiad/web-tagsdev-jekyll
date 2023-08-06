@@ -1,9 +1,13 @@
-title: tagsdev
+title: TagsDev
 author: Mark Taguiad
 email: marktaguiad@tagsdev.click
 url: https://tagsdev.click
 description: > 
   Mark Taguiad Blog Maybe
+
+linkedin: mark-christian-taguiad
+github: mcbtaguiad # Add your Github handle
+instagram: mark.tags
 
 permalink: /:slug.html
 
