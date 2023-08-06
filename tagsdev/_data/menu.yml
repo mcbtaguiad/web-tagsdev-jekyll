@@ -2,17 +2,17 @@
 # https://github.com/riggraz/no-style-please#customize-the-menu
 
 entries:
-  - title: info
-    url: false
-    entries:
-      - title: mark taguiad | devops
-        url: false
-      - title: cv
-        url: ./mark-cv.html
-      - title: github/mcbtaguiad
-        url: https://github.com/mcbtaguiad/
-      - title: marktaguiad@tagsdev.click
-        url: mailto:marktaguiad@tagsdev.click
+  # - title: info
+  #   url: false
+  #   entries:
+  #     - title: mark taguiad | devops
+  #       url: false
+  #     - title: cv
+  #       url: ./mark-cv.html
+  #     - title: github/mcbtaguiad
+  #       url: https://github.com/mcbtaguiad/
+  #     - title: marktaguiad@tagsdev.click
+  #       url: mailto:marktaguiad@tagsdev.click
 
   - title: blog
     post_list: true
