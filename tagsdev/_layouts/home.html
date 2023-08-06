@@ -1,11 +1,33 @@
 ---
 layout: default
 ---
-<header>
-  <h1>{{ site.title }}</h1>
+<header class="header-custom">
+  <h1 >{{ site.title }}</h1>
   {% if site.theme_config.show_description == true %}
     <p>{{ site.description }}</p>
   {% endif %}
+  <p>[marktaguiad] -at- [tagsdev] -dot- [click]</p>
+  <nav class="nav"> 
+    <a href="./blog.html" style="color: #000" onMouseOver="this.style.color='#007bff'" onMouseOut="this.style.color='#000'">Blog</a> 
+    <a href="./mark-cv.html" style="color: #000" onMouseOver="this.style.color='#007bff'" onMouseOut="this.style.color='#000'">About</a> 
+    
+  </nav> 
+  
 </header>
 
-{% include menu_item.html collection=site.data.menu.entries %}
+<div>
+  
+  <div class="container-face">
+    <img class="face" src="{{site.baseurl}}/assets/img/tags-black.jpg" alt="">
+  </div>
+  <!-- <h2 class="tagline">{% if site.tagline %}{{site.tagline}}{% else %}Full Stack Developer{% endif %}</h2> -->
+</div>
+
+<div class="body-custom"
+
+<p>Mark Taguiad</p>
+<p>DevOps</p>
+
+</div>
+{% include social.html %}
+{% include footer.html %}
