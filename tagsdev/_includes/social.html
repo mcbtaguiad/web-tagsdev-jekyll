@@ -1,0 +1,25 @@
+<div class="social-links center">
+    {% if site.instagram %}
+        <a class="link" style="color: #000" onMouseOver="this.style.color='#007bff'" onMouseOut="this.style.color='#000'" data-title="instagram.com/{{ site.instagram }}" href="https://instagram.com/{{ site.instagram }}" target="_blank"  rel="noopener">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+    {% endif %}
+
+    {% if site.linkedin %}
+        <a class="link" style="color: #000" onMouseOver="this.style.color='#007bff'" onMouseOut="this.style.color='#000'" data-title="linkedin.com/in/{{ site.linkedin }}" href="https://www.linkedin.com/in/{{ site.linkedin }}" target="_blank"  rel="noopener">
+            <i class="fa-brands fa-linkedin"></i>
+        </a>
+    {% endif %}
+
+    {% if site.github %}
+        <a class="link" style="color: #000" onMouseOver="this.style.color='#007bff'" onMouseOut="this.style.color='#000'" data-title="github.com/{{ site.github }}" href="https://github.com/{{ site.github }}" target="_blank"  rel="noopener">
+            <i class="fa-brands fa-github"></i>
+        </a>
+    {% endif %}
+
+    {% if site.email %}
+        <a class="link" style="color: #000" onMouseOver="this.style.color='#007bff'" onMouseOut="this.style.color='#000'" data-title="{{ site.email }}" href="mailto:{{ site.email }}"  rel="noopener">
+            <i class="fa-regular fa-envelope"></i>
+        </a>
+    {% endif %}
+</div>
