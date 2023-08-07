@@ -17,7 +17,7 @@ TocOpen: false
 > **Note**
 > Migrated to Jekyll
 
-![Alt text](https://raw.githubusercontent.com/mcbtaguiad/web-tagsdev-hugo/main/app/static/images/002-mark-tagsdev-click.jpg "mark.tagsdev.click")
+![Alt text]({{site.baseurl}}/assets/img/002-mark-tagsdev-click.jpg "mark.tagsdev.click")
 
 
 Back in 2021, I've deployed my first website [mark.tagsdev.click](https://mark.tagsdev.click) running on Django as its web framework. But a little content or progress was publish in it. This decision was to enable me to focus more on content creation and DevOps related projects/learnings.
