@@ -3,6 +3,12 @@ layout: default
 ---
 
 <a href="./blog.html">{{ site.theme_config.back_home_text }}</a>
+<!-- <header class="header-custom">
+    <h1>{{ site.title }}</h1>
+    {% if site.theme_config.show_description == true %}
+      <p>{{ site.description }}</p>
+    {% endif %}
+  </header> -->
 <h1>{{ page.title }}</h1>
 {{ content }}
 {% include social.html %}
