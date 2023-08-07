@@ -23,7 +23,7 @@ theme_config:
   show_description: false # show blog description in home page
 
 sass:
-  style: :compressedlogo.png
+  style: expanded
 
 plugins:
   - jekyll-feed
