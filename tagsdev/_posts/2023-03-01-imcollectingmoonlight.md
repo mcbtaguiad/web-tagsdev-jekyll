@@ -1,10 +1,10 @@
 ---
 layout: post_bulan
-title: "Bulan"
+title: "Luna (Bulan)"
 date: 2023-03-01T09:33:01+08:00
 #draft: true
 author: "Mark Taguiad"
-subject: 'Bulan ko'
+subject: 'Luna'
 tags: ["luna", "bulan", "moon", "starmap"]
 ShowToc: true
 TocOpen: false
@@ -21,7 +21,6 @@ TocOpen: false
 Manila, Philippines\
 Sunday, 25 September 2022
 
-
-![Alt text]({{site.baseurl}}/assets/img/starmap.png "starmap")
-
+[![starmap]({{site.baseurl}}/assets/img/starmap.png 'starmap')](https://www.imcollectingmoonlight.com/)
+<!-- ![Alt text]({{site.baseurl}}/assets/img/starmap.png "starmap") -->
 <!-- ![Alt text]({{site.baseurl}}/assets/img/scorpio.webp "scorpio") -->
