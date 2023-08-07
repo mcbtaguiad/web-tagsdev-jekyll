@@ -1,6 +1,6 @@
 ---
 layout: post_bulan
-title: "Luna (Bulan)"
+title: "Luna (18.2995° N, 121.2168° E)"
 date: 2023-03-01T09:33:01+08:00
 #draft: true
 author: "Mark Taguiad"
