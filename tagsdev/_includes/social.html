@@ -11,6 +11,12 @@
         </a>
     {% endif %}
 
+    {% if site.strava %}
+        <a class="link" style="color: #000" onMouseOver="this.style.color='#007bff'" onMouseOut="this.style.color='#000'" data-title="www.strava.com/athletes/{{ site.strava }}" href="https://www.strava.com/athletes/{{ site.strava }}" target="_blank"  rel="noopener">
+            <i class="fa-brands fa-strava"></i>
+        </a>
+    {% endif %}
+
     {% if site.github %}
         <a class="link" style="color: #000" onMouseOver="this.style.color='#007bff'" onMouseOut="this.style.color='#000'" data-title="github.com/{{ site.github }}" href="https://github.com/{{ site.github }}" target="_blank"  rel="noopener">
             <i class="fa-brands fa-github"></i>
