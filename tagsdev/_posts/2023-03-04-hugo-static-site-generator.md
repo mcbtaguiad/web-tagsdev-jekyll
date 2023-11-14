@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "002 Migrate Django Hugo"
+title: "Migrate Django Hugo"
 date: 2023-03-04T18:18:31+08:00
 author: "Mark Taguiad"
 tags: ["hugo", "django", "python", "website", "html", "flask"]
