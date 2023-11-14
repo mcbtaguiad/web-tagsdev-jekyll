@@ -21,7 +21,7 @@ document.querySelectorAll('.rocket-button').forEach(elem => {
         // elem.classList.remove('animated');
         setTimeout(function(){
           elem.classList.remove('animated');
-          window.open('https://jeremie.tagsdev.click/rocket');
+          window.open('https://moonlanding.tagsdev.click/');
         },3500);
         setTimeout(function(){
           elem.click()
