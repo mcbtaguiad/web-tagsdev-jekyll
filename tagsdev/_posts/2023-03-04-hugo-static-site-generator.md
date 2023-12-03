@@ -15,10 +15,10 @@ TocOpen: false
 > **Note**
 > Migrated to Jekyll
 
-![Alt text]({{site.baseurl}}/assets/img/002-mark-tagsdev-click.jpg "mark.tagsdev.click")
+![Alt text]({{site.baseurl}}/assets/img/002-mark-tagsdev-xyz.jpg "mark.tagsdev.xyz")
 
 
-Back in 2021, I've deployed my first website [mark.tagsdev.click](https://mark.tagsdev.click) running on Django as its web framework. But a little content or progress was publish in it. This decision was to enable me to focus more on content creation and DevOps related projects/learnings.
+Back in 2021, I've deployed my first website [mark.tagsdev.xyz](https://mark.tagsdev.xyz) running on Django as its web framework. But a little content or progress was publish in it. This decision was to enable me to focus more on content creation and DevOps related projects/learnings.
 
 
 
@@ -28,7 +28,7 @@ It has been a journey, everything was built from scratch, from html/js/cs to int
 
 Building my first website/blog on Django is a bit overkill. But this has been my gateway to Web-development to Linux Administration and now being DevOps. 
 
-The old [website](https://mark.tagsdev.click) will still be up and running as I intend to keep the development active. 
+The old [website](https://mark.tagsdev.xyz) will still be up and running as I intend to keep the development active. 
 
 ### Why Hugo?
 

@@ -10,7 +10,7 @@ document.querySelectorAll('.rocket-button').forEach(elem => {
             span.style.setProperty('--ds', text.querySelectorAll('span').length * d - d - i * d + 'ms');
         });
     });
-    elem.addEventListener('click', e => {
+    elem.addEventListener('xyz', e => {
         e.preventDefault();
         if(elem.classList.contains('animated')) {
           // elem.classList.remove('animated');
@@ -21,10 +21,10 @@ document.querySelectorAll('.rocket-button').forEach(elem => {
         // elem.classList.remove('animated');
         setTimeout(function(){
           elem.classList.remove('animated');
-          window.open('https://moonlanding.tagsdev.click/');
+          window.open('https://moonlanding.tagsdev.xyz/');
         },3500);
         setTimeout(function(){
-          elem.click()
+          elem.xyz()
         },5000);
 
       

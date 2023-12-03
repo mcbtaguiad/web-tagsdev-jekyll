@@ -14,10 +14,10 @@ spec:
   ingressClassName: nginx
   tls:
   - hosts:
-      - tagsdev.click
+      - tagsdev.xyz
     secretName: tagsdev-hugo-tls
   rules:
-  - host: tagsdev.click
+  - host: tagsdev.xyz
     http:
       paths:
       - path: /
