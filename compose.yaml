@@ -2,11 +2,11 @@ version: "3.9"
 
 services:
     app:
-        container_name: web-tagsdev-jekyll
-        image: ghcr.io/mcbtaguiad/web-tagsdev-jekyll:v1.1.6
+        container_name: web-tagsdev
+        image: ghcr.io/mcbtaguiad/web-tagsdev-jekyll:v1.2.0
         build:
             context: .
-            dockerfile: Dockerfile
+            dockerfile: Dockerfile.apache
         restart: always
         ports:
-            - "8080:80"
+            - "8000:80"

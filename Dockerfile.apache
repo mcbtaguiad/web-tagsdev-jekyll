@@ -1,0 +1,25 @@
+# FROM jekyll/jekyll as builder
+
+# USER root
+
+# WORKDIR /app
+
+# COPY /tagsdev/* /app
+
+# ARG JEKYLL_ENV=production
+
+# RUN bundle config set --local path 'vendor/cache'
+
+# RUN bundle install
+
+# RUN jekyll build
+
+FROM httpd:latest
+
+# COPY --from=builder /app/_site/ /usr/local/apache2/htdocs/
+COPY ./tagsdev/_site/ /usr/local/apache2/htdocs/
+
+COPY ./gallery/alon/public/ /usr/local/apache2/htdocs/
+COPY ./gallery/ahon/public/ /usr/local/apache2/htdocs/
+COPY ./gallery/luna/public/ /usr/local/apache2/htdocs/
+COPY ./gallery/mithi/public/ /usr/local/apache2/htdocs/

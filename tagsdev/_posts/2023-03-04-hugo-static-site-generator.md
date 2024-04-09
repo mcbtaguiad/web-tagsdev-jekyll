@@ -15,7 +15,10 @@ TocOpen: false
 > **Note**
 > Migrated to Jekyll
 
-![Alt text]({{site.baseurl}}/assets/img/002-mark-tagsdev-xyz.jpg "mark.tagsdev.xyz")
+<!-- ![Alt text]({{site.baseurl}}/assets/img/002-mark-tagsdev-click.jpg "mark.tagsdev.xyz") -->
+<!-- [![dufs](/002-mark-tagsdev-xyz.jpg)](https://dufs.tagsdev.xyz/){:target="_blank"} -->
+
+<img src="https://dufs.tagsdev.xyz/web-tagsdev/img/002-mark-tagsdev-xyz.jpg">
 
 
 Back in 2021, I've deployed my first website [mark.tagsdev.xyz](https://mark.tagsdev.xyz) running on Django as its web framework. But a little content or progress was publish in it. This decision was to enable me to focus more on content creation and DevOps related projects/learnings.

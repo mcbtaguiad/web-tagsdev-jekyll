@@ -1,0 +1,14 @@
+{
+    "images_data_file": "./images_data.json",
+    "public_path": "./public",
+    "templates_path": "./templates",
+    "images_path": "./public/images/photos",
+    "thumbnails_path": "./public/images/thumbnails",
+    "thumbnail_height": 160,
+    "title": "Alon",
+    "description": "Dalluyon ti baybay",
+    "background_photo": "PXL_20231216_075308466.jpg",
+    "url": "",
+    "background_photo_offset": 30,
+    "disable_captions": false
+}

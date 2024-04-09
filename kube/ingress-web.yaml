@@ -1,7 +1,7 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: tagsdev-hugo-ingress
+  name: tagsdev-ingress
   annotations:
     gethomepage.dev/description: "TagsDev | Mark Taguaid"
     gethomepage.dev/enabled: "true"
@@ -15,7 +15,7 @@ spec:
   tls:
   - hosts:
       - tagsdev.xyz
-    secretName: tagsdev-hugo-tls
+    secretName: tagsdev-tls
   rules:
   - host: tagsdev.xyz
     http:
