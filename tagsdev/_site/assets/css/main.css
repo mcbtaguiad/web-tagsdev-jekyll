@@ -1,0 +1,509 @@
+body[a=dark] {
+  filter: invert(1);
+}
+body[a=dark] img {
+  filter: invert(1);
+}
+body[a=dark] img.ioda {
+  filter: invert(0);
+}
+
+@media (prefers-color-scheme: dark) {
+  body[a=auto] {
+    filter: invert(1);
+  }
+  body[a=auto] img {
+    filter: invert(1);
+  }
+  body[a=auto] img.ioda {
+    filter: invert(0);
+  }
+}
+html, body {
+  background-color: white;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  color: black;
+  font-family: Inconsolata;
+  font-size: 1.2rem;
+  line-height: 1.2;
+  margin: 0;
+  min-height: 100%;
+}
+
+h2, h3, h4, h5 {
+  margin-top: 3rem;
+}
+
+hr {
+  margin: 2rem 0;
+}
+
+p {
+  margin: 1rem 0;
+}
+
+li {
+  margin: 0.4rem 0;
+}
+
+*:target {
+  background-color: #007bff;
+}
+
+.w {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+}
+
+hr {
+  text-align: center;
+  border: 0;
+}
+hr:before {
+  content: "/////";
+}
+hr:after {
+  content: attr(data-content) "/////";
+}
+
+table, th, td {
+  width: 100%;
+  border: thin solid black;
+  border-collapse: collapse;
+  padding: 0.4rem;
+}
+
+code {
+  color: white;
+  background-color: black;
+}
+
+div.highlighter-rouge code {
+  display: block;
+  overflow-x: auto;
+  padding: 1rem;
+}
+
+blockquote {
+  font-style: italic;
+  border: thin solid black;
+  padding: 1rem;
+}
+blockquote p {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.container-face {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+img.face {
+  border-radius: 50%;
+  width: 250px;
+  max-width: 100%;
+}
+
+.header-custom {
+  text-align: center;
+}
+
+.body-custom {
+  text-align: center;
+  margin: 0;
+  line-height: 5px;
+}
+
+.social-links > .link {
+  margin: 0;
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+  color: #000;
+}
+
+.center {
+  margin-top: 20px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+}
+
+.footer-main {
+  margin: 70px 0 0;
+  margin-bottom: 0px;
+  font-size: 1.2rem;
+  color: #000;
+  font-weight: #000;
+  text-align: center;
+  position: relative;
+}
+.footer-main:before {
+  display: block;
+  content: " ";
+  width: 7px;
+  height: 7px;
+  position: absolute;
+  top: -5px;
+  left: 50%;
+  margin-left: -5px;
+}
+.footer-main > .copyright {
+  padding-left: 10px;
+}
+.footer-main > .link {
+  display: inline;
+  vertical-align: middle;
+}
+.footer-main > .link > .icon {
+  width: 15px !important;
+  fill: #000 !important;
+  transition: ease-in-out all 0.3s;
+  position: relative;
+  display: inherit;
+  top: -2px;
+  margin: 0;
+  left: 2px;
+}
+.footer-main > .link > .icon:hover {
+  fill: #000 !important;
+}
+.footer-main > .extra {
+  color: #000;
+  margin-top: 0;
+  font-weight: #000;
+}
+.footer-main > .extra > .link {
+  color: #000;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: ease-in-out all 0.3s;
+  padding-bottom: 1px;
+  font-weight: 300;
+}
+.footer-main > .extra > .link:hover {
+  border-color: #000;
+}
+
+.nav {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  margin: 0;
+}
+
+.rocket-button {
+  --background: rgba(0,0,0,0);
+  --text: #000000;
+  --check: #5c86ff;
+  --blue: #5c86ff;
+  --blue-transparent: rgba(92, 134, 255, 0);
+  --dot: #ff5499;
+  --dot-shadow: rgba(255, 84, 153, 0.5);
+  --smoke: rgba(108, 108, 105, 0.9);
+  --rocket: #383107;
+  --rocket-shadow-left: #2b2c2c;
+  --rocket-shadow-right: #48483a;
+  --rocket-wing-right: #52512c;
+  --rocket-wing-left: #52512c;
+  --rocket-window: #f7381f;
+  --rocket-window-shadow: #62613d;
+  --rocket-line: #82805c;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 19px;
+  padding: 14px 28px;
+  display: table;
+  position: relative;
+  backface-visibility: hidden;
+  text-decoration: none;
+  color: var(--text);
+}
+.rocket-button:before {
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+  backface-visibility: hidden;
+  transition: transform 0.2s ease;
+  transform: scale(var(--s, 1)) translateZ(0);
+  position: absolute;
+  background: var(--background);
+}
+.rocket-button .default,
+.rocket-button .success,
+.rocket-button .animation {
+  z-index: 1;
+}
+.rocket-button .default span,
+.rocket-button .success span {
+  display: block;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+  transform: translateX(var(--x, 0));
+  opacity: var(--o, 1);
+  filter: blur(var(--b, 0px));
+}
+.rocket-button .default {
+  position: relative;
+  display: flex;
+}
+.rocket-button .default:before {
+  content: "";
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  margin: 7px 8px 0 0;
+  box-shadow: 0 0 0 1px var(--dot-shadow);
+  animation: pulse 1s ease infinite;
+  vertical-align: top;
+  display: inline-block;
+  transition: opacity 0.3s linear;
+  opacity: var(--o, 1);
+  background: var(--dot);
+}
+.rocket-button .success {
+  opacity: var(--o, 0);
+  position: absolute;
+  display: flex;
+  top: 14px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.rocket-button .success svg {
+  width: 13px;
+  height: 11px;
+  stroke-width: 2;
+  stroke-dasharray: 20px;
+  stroke-dashoffset: var(--o, 20px);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
+  display: block;
+  color: var(--check);
+  margin: 4px 8px 0 0;
+}
+.rocket-button .success > div {
+  display: flex;
+}
+.rocket-button .success > div span {
+  --o: 0;
+  --x: 8px;
+  --b: 2px;
+}
+.rocket-button .animation {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 120px;
+  pointer-events: none;
+  overflow: hidden;
+  position: absolute;
+}
+.rocket-button .animation .smoke {
+  left: 50%;
+  top: 100%;
+  position: absolute;
+}
+.rocket-button .animation .smoke i {
+  opacity: 0;
+  transform: scale(0.7);
+  border-radius: 50%;
+  position: absolute;
+  bottom: var(--b, -20px);
+  left: var(--l, -12px);
+  width: var(--s, 32px);
+  height: var(--s, 32px);
+  background: var(--smoke);
+}
+.rocket-button .animation .smoke i:nth-child(2) {
+  --s: 20px;
+  --l: -24px;
+  --b: -10px;
+  --d: 50ms;
+}
+.rocket-button .animation .smoke i:nth-child(3) {
+  --s: 22px;
+  --l: 0;
+  --b: -12px;
+  --d: 20ms;
+}
+.rocket-button .animation .smoke i:nth-child(4) {
+  --s: 12px;
+  --l: 16px;
+  --b: -6px;
+  --d: 120ms;
+}
+.rocket-button .animation .smoke i:nth-child(5) {
+  --s: 24px;
+  --l: -20px;
+  --b: -14px;
+  --d: 80ms;
+}
+.rocket-button .animation .smoke i:nth-child(6) {
+  --s: 12px;
+  --l: -28px;
+  --b: -8px;
+  --d: 60ms;
+}
+.rocket-button .animation .rocket {
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  z-index: 1;
+  margin: 0 0 0 -12px;
+}
+.rocket-button .animation .rocket:before {
+  content: "";
+  margin-left: -3px;
+  left: 50%;
+  top: 32px;
+  position: absolute;
+  width: 6px;
+  border-radius: 2px;
+  height: 32px;
+  transform-origin: 50% 0;
+  transform: scaleY(0.5);
+  background: linear-gradient(var(--blue), var(--blue-transparent));
+}
+.rocket-button .animation .rocket svg {
+  width: 24px;
+  height: 36px;
+  display: block;
+}
+.rocket-button:active {
+  --s: .95;
+}
+.rocket-button.live:before {
+  animation: shake 1.5s ease 0.6s;
+}
+.rocket-button.live .default:before {
+  --o: 0;
+}
+.rocket-button.live .default span {
+  --o: 0;
+  --x: 8px;
+  --b: 2px;
+  transition: transform 0.3s ease var(--d), opacity 0.3s ease var(--d), filter 0.3s ease var(--d);
+}
+.rocket-button.live .success {
+  --o: 1;
+}
+.rocket-button.live .success span {
+  --o: 1;
+  --x: 0;
+  --b: 0;
+  transition: transform 0.3s ease calc(var(--d) + 2200ms), opacity 0.3s ease calc(var(--d) + 2200ms), filter 0.3s ease calc(var(--d) + 2200ms);
+}
+.rocket-button.live .success svg {
+  --o: 0;
+  transition: stroke-dashoffset 0.3s ease 2.25s;
+}
+.rocket-button.live .animation .rocket {
+  animation: rocket 2s ease forwards 0.4s;
+}
+.rocket-button.live .animation .rocket:before {
+  animation: rocket-light 2s ease forwards 0.4s;
+}
+.rocket-button.live .animation .smoke i {
+  animation: var(--n, smoke) 1.7s ease forwards calc(var(--d) + 600ms);
+}
+.rocket-button.live .animation .smoke i:nth-child(3), .rocket-button.live .animation .smoke i:nth-child(6) {
+  --n: smoke-alt;
+}
+
+@keyframes pulse {
+  50% {
+    box-shadow: 0 0 0 2px var(--dot-shadow);
+  }
+}
+@keyframes shake {
+  8%, 24%, 40%, 56%, 72%, 88% {
+    transform: translateX(-1px);
+  }
+  16%, 32%, 48%, 64%, 80%, 96% {
+    transform: translateX(1px);
+  }
+}
+@keyframes smoke {
+  20%, 80% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  55% {
+    transform: scale(0.92);
+  }
+}
+@keyframes smoke-alt {
+  20%, 80% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  60% {
+    transform: scale(1.08);
+  }
+}
+@keyframes rocket {
+  35% {
+    transform: translateY(-56px);
+  }
+  80% {
+    transform: translateY(-48px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-108px) scale(0.6);
+    opacity: 0;
+  }
+}
+@keyframes rocket-light {
+  35% {
+    transform: scaleY(0.6);
+  }
+  75% {
+    transform: scaleY(0.5);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+html {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: inherit;
+}
+*:before, *:after {
+  box-sizing: inherit;
+}
+
+.rocket_center {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+}
+
+/*# sourceMappingURL=main.css.map */
