@@ -46,6 +46,7 @@ jobs:
           images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
           tags: |
             type=ref,event=branch
+            type=ref,event=tag
             type=ref,event=pr
 
       - name: Build and push Docker image
@@ -56,5 +57,3 @@ jobs:
           push: true
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
-          # tags: ${{ vars.GITHUB_BASE_REF }}
-          # labels: ${{ vars.GITHUB_BASE_REF }}
